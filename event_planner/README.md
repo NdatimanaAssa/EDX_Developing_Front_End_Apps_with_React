@@ -1,25 +1,33 @@
-# Developing Front End Apps with React
+# Event Planner
 
 ## Overview
-This project is part of the "Developing Front End Apps with React" course. It involves building interactive front-end web applications using React, a popular JavaScript library for creating user interfaces. The development is done using Cloud IDE tools, which provide a cloud-based environment for coding, running, and debugging React applications.
+A React application that presents an event planning platform with various event categories, features, testimonials, and a contact form.
 
-## Project Structure
-- All project files are stored in the `/home/project` directory within the Cloud IDE.
-- The Cloud IDE provides a VS Code-like interface with an editor, terminal, and live preview.
+## What I Learned
+
+### Functional Components
+- Building UI with functional components and JSX
+- Composing components together (e.g. importing `Footer` inside `EventPlanner`)
+
+### Component Composition
+- Breaking the UI into reusable components (`EventPlanner`, `Footer`)
+- Passing no props and keeping components self-contained
+
+### JSX Structure
+- Structuring semantic HTML elements inside JSX
+- Using `className` instead of `class` for styling
 
 ## Features
-- Creation of React components using JSX syntax.
-- Management of component state and props for dynamic data handling.
-- Event handling to respond to user interactions.
-- Implementation of routing for multi-page navigation using React Router.
-- Use of npm for package management and running the development server.
+- Event categories: Social, Entertainment, and Community events
+- Platform features list
+- Testimonials section
+- Contact form
+- Footer component with copyright
 
-## Getting Started
+## Technologies
+- React 18
+- Vite
+- CSS
 
-### Prerequisites
-- Node.js and npm are pre-installed in the Cloud IDE environment.
-
-### Installation
-Open the terminal in the Cloud IDE and run:
-```bash
-npm install
+---
+**Author:** Ndatimana Assa
